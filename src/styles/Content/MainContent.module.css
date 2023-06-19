@@ -1,0 +1,11 @@
+.container {
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+
+@media (min-width: 768px) {
+    .MainContent_container__Bu16s {
+        margin-left:2rem;
+        margin-right: 2rem
+    }
+}

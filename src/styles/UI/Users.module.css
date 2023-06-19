@@ -1,0 +1,23 @@
+.usersList {
+  display: flex
+}
+
+.profile {
+  --tw-border-opacity: 1;
+    border-color: rgb(255 255 255/var(--tw-border-opacity));
+    border-radius: 9999px;
+    border-width: 1px
+}
+
+.count {
+  --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    align-items: center;
+    background-color: rgb(244 215 218/var(--tw-bg-opacity));
+    color: rgb(216 114 125/var(--tw-text-opacity));
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: center;
+    z-index: 40
+}

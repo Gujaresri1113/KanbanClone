@@ -1,0 +1,31 @@
+.navMenu {
+  --tw-border-opacity: 1;
+    border-bottom-color: rgb(219 219 219/var(--tw-border-opacity));
+    border-bottom-width: 1px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15rem;
+    gap: 25px;
+    margin: 0 13px;
+    padding: 30px 0;
+}
+
+.menuItem {
+  --tw-text-opacity: 1;
+    color: rgb(120 116 134/var(--tw-text-opacity));
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 14px;
+    line-height: 1.5rem;
+}
+
+.menuItem span {
+  --tw-text-opacity: 1;
+  color: rgb(120 116 134/var(--tw-text-opacity));
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  gap: 14px;
+  line-height: 1.5rem;
+}

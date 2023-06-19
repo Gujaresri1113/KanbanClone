@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.rightContainer {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(219 219 219/var(--tw-border-opacity));
+  border-left-width: 1px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.leftContainer {
+  min-width: 250px;
+  width: 50px
+}

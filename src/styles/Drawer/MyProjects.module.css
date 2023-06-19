@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+}
+
+.headerText {
+  --tw-text-opacity: 1;
+    color: rgb(120 116 134/var(--tw-text-opacity));
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1rem;
+    padding-left: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projectsList {
+  position: relative;
+}
+
+.projectItem {
+  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 10px;
+    
+    padding-top: 10px;
+}
+
+.projectInfo {
+  align-items: center;
+  display: flex;
+  gap: 1rem
+}
+
+.projectName {
+  color: rgb(120 116 134/var(--tw-text-opacity));
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem
+}
+
+.active {
+  --tw-bg-opacity: 0.1;
+    background-color: rgb(80 48 229/var(--tw-bg-opacity));
+    border-radius: 6px;
+}
+
+.activeIcon {
+  margin-right: .75rem
+}

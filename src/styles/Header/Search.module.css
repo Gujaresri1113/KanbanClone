@@ -1,0 +1,36 @@
+.inputContainer {
+  border-radius: 6px;
+  
+}
+
+.inputContainer span {
+  align-content: center;
+}
+
+.inputContainer input {
+  --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-text-opacity: 1;
+    color: rgb(120 116 134/var(--tw-text-opacity));
+    display: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    left: 55px;
+    line-height: 1.75rem;
+    pointer-events: none;
+    position: absolute;
+    top: 10px;
+  
+}
+
+.inputContainer label {
+  text-align: center;
+}
+
+.inputContainer:focus-within label {
+  @apply -translate-y-6 -translate-x-3 scale-75 text-black;
+}
+
+.inputContainer .filled {
+  @apply -translate-y-6 -translate-x-3 scale-75 text-black;
+}
